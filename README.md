@@ -4,7 +4,8 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ## Screenshot
 
-![desktop-design](https://user-images.githubusercontent.com/91362640/198155670-47ff26b5-2546-4296-a837-b852947eac13.jpg)
+![desktop-design](https://user-images.githubusercontent.com/91362640/198853572-20b2e7ff-3fa5-496e-a20f-1019cfce7374.jpg)
+
 
 
 ## Links
