@@ -1,0 +1,94 @@
+section.container{
+  width: 1440px;
+  height: 900px;
+}
+section.app__section-leftside h1{
+font-weight: 700;
+font-size: 49px;
+line-height: 58px;
+width: 479px;
+height: 116px;
+position: relative;
+top: 333px;
+left: 168px;
+color: var(--White-color);
+}
+section.app__section-leftside p{
+font-weight: 500;
+line-height: 27px;
+width: 556px;
+height: 81px;
+position: relative;
+top: 354px;
+left: 168px;
+color: antiquewhite;
+}
+section.app__section-rightside a.offer{
+font-weight: 600;
+letter-spacing: -0.02em;
+line-height: 24px;
+width: 543px;
+height: 60px;
+position: relative;
+top: -43px;
+left: 803px;
+border-radius: 12px;
+color: var(--White-color);
+background-color: var(--Blue-color);
+padding: 18px 113px;
+}
+section.app__section-rightside a.offer span{
+  color: var(--GrayishBlue-color);
+}
+
+section.app__section-rightside form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+width: 539px;
+height: 476px;
+position: relative;
+top: -5px;
+left: 803px;
+border-radius: 15px;
+background-color: var(--White-color);
+}
+section.app__section-rightside form input#frname{
+position: relative;
+top: -38px;
+}
+section.app__section-rightside form input#lname{
+position: relative;
+top: -17px;
+}
+section.app__section-rightside form input#Email{
+position: relative;
+top: 4px;
+}
+section.app__section-rightside form input#Password{
+position: relative;
+top: 25px;
+}
+section.app__section-rightside form input#submit{
+position: relative;
+top: 46px;
+background-color: var(--Seconed-color);
+padding: 0px;
+color: var(--White-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 27px;
+letter-spacing: 0.02em;
+}
+section.app__section-rightside form p{
+position: relative;
+top: 46px;
+font-weight: 500;
+font-size: 10px;
+line-height: 15px;
+letter-spacing: 0.05em;
+}
+section.app__section-rightside form p span{
+  color: var(--Primary-color);
+}
