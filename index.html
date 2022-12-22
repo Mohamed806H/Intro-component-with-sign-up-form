@@ -6,26 +6,42 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./css/style.css">
-  <script src="./js/master.js"></script>
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
 <body>
   <section class="container">
-    <section class="app__section-leftside">
+    <section class="left">
     <h1>Learn to code by watching others</h1>
     <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,but understanding how developers think is invaluable.</p>
     </section>
-    <section class="app__section-rightside">
+    <section class="right">
       <a class="offer">Try it free 7 days <span>then $20/mo. thereafter</span></a>
-      <form>
+      <form id="form">
+<div class="div-box-one">
       <input type="text" name="First Name" id="frname" placeholder="First Name" class="box">
-      <input type="text" name="LastName" id="lname" placeholder="Last Name" class="box">
-      <input type="email" name="EmailAddress" id="Email" placeholder="Email Address" class="box">
-      <input type="password" name="Password" id="Password" placeholder="Password" class="box">
-      <input type="submit" value="CLAIM YOUR FREE TRAIL" id="submit" class="box">
-      <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+        <img src="./images/icon-error.svg" alt="icon-error" class="error-icon first">
+        <p class="firstname-error">First name cannot be empty</p>
+</div>
+<div class="div-box-two">
+        <input type="text" name="LastName" id="lname" placeholder="Last Name" class="box">
+        <img src="./images/icon-error.svg" alt="icon-error" class="error-icon last">
+        <p class="lastname-error">Last name cannot be empty</p>
+</div>
+<div class="div-box-three">
+  <input type="email" name="EmailAddress" id="Email" placeholder="Email Address" class="box">
+  <img src="./images/icon-error.svg" alt="icon-error" class="error-icon email">
+  <p class="email-error">Email cannot be empty</p>
+</div>
+<div class="div-box-four">
+    <input type="password" name="Password" id="Password" placeholder="Password" class="box">
+    <img src="./images/icon-error.svg" alt="icon-error" class="error-icon password">
+    <p class="password-error">password cannot be empty</p>
+</div>
+    <button type="submit" id="submit" class="box">CLAIM YOUR FREE TRAIL</button>
+      <p class="terms">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
       </form>
     </section>
   </section>
+  <script src="./js/master.js"></script>
 </body>
 </html>

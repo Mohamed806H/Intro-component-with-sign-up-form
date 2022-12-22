@@ -26,10 +26,15 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0px 0px;
+  overflow-x: hidden;
 }
 .box{
   width: 459px;
   height: 57px;
   border: 1px solid var(--GrayishBlue-color);
   padding-left: 32px;
+}
+
+.error-icon{
+  position: absolute;
 }
