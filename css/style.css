@@ -152,7 +152,48 @@ section.right form p span{
   color: var(--Primary-color);
 }
 
-
+@media screen and (max-width:375px) {
+  section.left h1{
+font-size: 30px;
+width: 370px;
+top: 80px;
+left: 65px;
+}
+section.left p{
+width: 332px;
+top: 95px;
+left: 32px;
+text-align: center;
+}
+section.right a.offer{
+top: 200px;
+left: 15px;
+padding: 20px 15px;
+}
+section.right form{
+width: 350px;
+top: 255px;
+left: 12px;
+border-radius: 15px;
+background-color: var(--White-color);
+}
+p.firstname-error{
+    left: 140px;
+}
+p.lastname-error{
+    left: 140px;
+}
+p.email-error{
+    left: 170px;
+}
+p.password-error{
+    left: 143px;
+}
+section.right form p.terms{
+top: 55px;
+left: 12px;
+}
+}
 
 
 
