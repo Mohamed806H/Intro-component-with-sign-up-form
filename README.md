@@ -10,8 +10,8 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ## Links
 
-- Solution URL:(https://www.frontendmentor.io/solutions/nftpreviewcardcomponent-yzH6qpKxsa)
-- Live Site URL:(https://mohamed806h.github.io/NFT-preview-card-component/)
+- Solution URL:(https://www.frontendmentor.io/solutions/intro-component-with-signup-form-4f-qha-Qou)
+- Live Site URL:(https://mohamed806h.github.io/Intro-component-with-sign-up-form/)
 
 ## Built with
 
